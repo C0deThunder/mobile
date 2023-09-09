@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .back {
+            background-color: black;
+            height: 120vh;
+            width: 100vw;
+            position: absolute;
+            z-index: -10;
+            margin: 0px;
+            padding: 0px;
+        }
+        .h1 {
+            text-align: center;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .body {
+            background-color: black;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .table {
+            height: 50px;
+            max-width: 100%;
+            background-color: black;
+        }
+        .button {
+            height: 60px;
+            width: 100px;
+            background-color: lightgrey;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        .button1 {
+            background-color: blue;
+            color: black;
+        }
+        .button1:hover {
+            background-color: darkcyan;
+            color: white;
+        }
+        .button2 {
+            background-color: blue;
+            color: black;
+            width: 180px;
+        }
+        .button2:hover {
+            background-color: darkcyan;
+            color: white;
+        }
+        .button3 {
+            background-color: blue;
+            color: black;
+        }
+        .button3:hover {
+            background-color: darkcyan;
+            color: white;
+        }
+        .buttony {
+            background-color: red;
+            color: white;
+            height: 100px;
+            width: 177px;
+            border-style: ridge;
+            border-color: darkred;
+        }
+        .buttony:hover {
+            background-color: darkred;
+            border-color: red;
+            color: black;
+        }
+        .buttonw {
+            background-color: lightgrey;
+            color: black;
+            height: 100px;
+            width: 177px;
+            border-style: ridge;
+            border-color: grey;
+        }
+        .buttonw:hover {
+            background-color: grey;
+            border-color: lightgray;
+            color: white;
+        }
+        .buttont {
+            background-color: #6441a5;
+            color: white;
+            height: 100px;
+            width: 177px;
+            border-style: ridge;
+            border-color: #b9a3e3;
+        }
+        .buttont:hover {
+            background-color: #b9a3e3;
+            border-color: #6441a5;
+            color: black;
+        }
+        .buttonl {
+            background-color: #0077b5;
+            color: white;
+            height: 100px;
+            width: 177px;
+            border-style: ridge;
+            border-color: #00a0dc;
+        }
+        .buttonl:hover {
+            background-color: #00a0dc;
+            border-color: #0077b5;
+            color: black;
+        }
+        .topnav {
+        overflow: hidden;
+        background-color: blue;
+        }
+
+        .topnav a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        }
+
+        .topnav a:hover {
+        background-color: darkblue;
+        color: white;
+        }
+
+        .topnav a.active {
+        background-color: black;
+        color: blue;
+        }
+        .iframe-container {
+            position: relative;
+
+            width: 80vw;
+            height: 45vw;
+        }
+        .iframe-container iframe{
+            position: absolute;
+            top: 0;
+            left: 10vw;
+            width: 80vw;
+            height: 45vw;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>abt</title>
+        <link rel="stylesheet" href="abt.css">
+    </head>
+    <div class="back"></div>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a class="active" href="abt.html">About</a>
+        <a href="acc.html">Accomplishments</a>
+      </div>
+    <div class="h1">
+    <h1>about</h1>
+    </div>
+    <div class="body">
+    <body>Michael Reeves is an American YouTuber and Twitch streamer who produces “comedy-tech” YouTube videos. He is a member of OfflineTV, an online social entertainment group of content creators.</body>
+    </div>
+    <div class="h1">
+    <h4>Links to platforms where you can find Michael Reeves</h4>
+    </div>
+    <div class="iframe-container">
+        <iframe width="460" height="215" src="https://www.youtube.com/embed/A_BlNA7bBxo?si=r3LDj2EXRfawg-6e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    <div class="table">
+    <center><table>
+        <tr>
+            <td style="text-align: right;">
+                <a href="https://www.youtube.com/c/MichaelReeves" target="_blank"><button class="button buttony">Youtube</button></a>
+            </td>
+            <td>
+                <a href="https://en.wikipedia.org/wiki/Michael_Reeves_(Internet_personality)" target="_blank"><button class="button buttonw">Wikipedia</button></a>
+            </td>
+        </tr>
+        <tr>
+            <td style="text-align: right;">
+                <a href="https://www.twitch.tv/michaelreeves" target="_blank"><button class="button buttont">Twitch</button></a>
+            </td>
+            <td>
+                <a href="https://www.linkedin.com/in/michael-reeves-619462123?trk=people-guest_people_search-card" target="_blank"><button class="button buttonl">LinkedIn</button></a>
+            </td>
+        </tr>
+        
+    </table></center>
+    </div>
+</html>

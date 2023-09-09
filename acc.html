@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .back {
+            background-color: black;
+            height: 120vh;
+            width: 100vw;
+            position: absolute;
+            z-index: -10;
+            margin: 0px;
+            padding: 0px;
+        }
+        .th {
+            background-color: lime;
+            height: 50px;
+            width: 100%;
+            text-align: left;
+        }
+        .table {
+            border: 5px outset aqua;
+            max-width: 100%;
+            color: white;
+        }
+        .td {
+            border: 3px inset aqua;
+        }
+        .button {
+            height: 60px;
+            width: 100px;
+            background-color: lightgrey;
+            border: none;
+            color: white;
+            padding: 16px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            transition-duration: 0.4s;
+            cursor: pointer;
+        }
+        .button1 {
+            background-color: lime;
+            color: black;
+        }
+        .button1:hover {
+            background-color: limegreen;
+            color: white;
+        }
+        .button2 {
+            background-color: lime;
+            color: black;
+            width: 180px;
+        }
+        .button2:hover {
+            background-color: limegreen;
+            color: white;
+        }
+        .button3 {
+            background-color: lime;
+            color: black;
+        }
+        .button3:hover {
+            background-color: limegreen;
+            color: white;
+        }
+        .topnav {
+            overflow: hidden;
+            background-color: lime;
+        }
+        
+        .topnav a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        }
+        
+        .topnav a:hover {
+        background-color: limegreen;
+        color: black;
+        }
+        
+        .topnav a.active {
+        background-color: black;
+        color: lime;
+        }
+        .accomplishments {
+            color: white;
+            position: absolute;
+            width: 30vw;
+            top: 60vh;
+            left: 35vw;
+            border: 3px outset lime;
+        }
+        .tap {
+            border: 3px outset lime;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>goat</title>
+        <link rel="stylesheet" href="acc.css">
+    </head>
+    <div class="back"></div>
+    <div class="topnav">
+        <a href="index.html">Home</a>
+        <a href="abt.html">About</a>
+        <a class="active" href="acc.html">Accomplishments</a>
+      </div>
+    <center><img src="images/lazer.jpg" alt="Michael being weird" style="max-width: 100%;"></center>
+    <div class="accomplishments">
+        <table>
+            <tr>
+                <div class="tap">
+                    <th colspan="2">Accomplishments</th>
+                </div>
+            </tr>
+            <tr>
+                <div class="header">
+                <td>Coding Skills</td>
+                <td>Self taught using Harvards coding courses that are posted to youtube for free</td>
+                </div>
+            </tr>
+            <tr>
+                <td>Engineering skill</td>
+                <td>Self taught</td>
+            </tr>
+            <tr>
+                <td>Net worth</td>
+                <td>$3 Million</td>
+            </tr>
+        </table>
+    </div>
+</html>

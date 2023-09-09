@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .back {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -10;
+    margin: 0px;
+    padding: 0px;
+        }
+        .h1 {
+            text-align: center;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .body {
+            background-color: black;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 10px;
+            line-height: 20px;
+        }
+        .images {
+            height: 30vw;
+            width: 100vw;
+            background-color: black;
+            position: relative;
+        }
+        .img1 img{
+            width: 15vw;
+            height: 20vw;
+            background-color: white;
+            position: absolute;
+            left: 20vw;
+        }
+        .img2 img{
+            width: 15vw;
+            height: 20vw;
+            background-color: white;
+            position: absolute;
+            right: 20vw;
+        }
+        .topnav {
+        overflow: hidden;
+        background-color: red;
+        }
+
+        .topnav a {
+        float: left;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        }
+
+        .topnav a:hover {
+        background-color: darkred;
+        color: white;
+        }
+
+        .topnav a.active {
+        background-color: black;
+        color: red;
+        }
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <title>goat</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <div class="back"></div>
+    <div class="topnav">
+        <a class="active" href="index.html">Home</a>
+        <a href="abt.html">About</a>
+        <a href="acc.html">Accomplishments</a>
+      </div>
+    <div class="h1">
+        <h1>Michael Reeves</h1>
+        <h3>Youtuber, Twitch Streamer, Engineer</h3>
+    </div>
+    <div class="body"><body>
+    <b>Michael Reeves is an American Youtuber and Twitch streamer Who makes engineering and coding content on Youtube and plays games on twitch. In his videos he makes complicated machines that often have code that he made himself. Many of his programs use the ability to recognize and track objects. His projects include but are not limited to</b>
+    </body>
+    <ul>
+        <li>Drone swarm that tracks peoples heads</li>
+        <li>"Surgery Robot" That uses hand tracking and gestures to move a scalpel on a 3d printer style gantry</li>
+        <li>Scream powered microwave</li>
+        <li>Gas powered fishing pole</li>
+        <li>Roomba that screams when it bumps into things</li>
+        <li>Robot that picks the tomatoes out of your salad</li>
+    </ul>
+    </div>
+    <div class="body">
+    <center><b>Above all Michael's content comedy and engineering, usually accomplished by making as smart of a dumb project as he can make</b></center>
+    <div class="images">
+        <div class="img1"><img src="images/Michaelreeves.jpg" alt="Michael in front of microphone"></div>
+        <div class="img2"><img src="images/Michaelreeves.webp" alt="Michael being weird"></div>
+    </div>
+    </div>
+</html>
