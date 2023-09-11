@@ -1,0 +1,322 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.back-i {
+background-color: black;
+height: 100vh;
+width: 100vw;
+position: absolute;
+z-index: -10;
+margin: 0px;
+padding: 0px;
+}
+.h1-i {
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.body-i {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    line-height: 20px;
+}
+.images-i {
+    height: 30vw;
+    width: 100vw;
+    background-color: black;
+    position: relative;
+}
+.img1-i img{
+    width: 15vw;
+    height: 20vw;
+    background-color: white;
+    position: absolute;
+    left: 20vw;
+}
+.img2-i img{
+    width: 15vw;
+    height: 20vw;
+    background-color: white;
+    position: absolute;
+    right: 20vw;
+}
+.topnav-i {
+overflow: hidden;
+background-color: red;
+}
+
+.topnav-i a {
+float: left;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav-i a:hover {
+background-color: darkred;
+color: white;
+}
+
+.topnav-i a.active {
+background-color: black;
+color: red;
+}
+/*acc*/
+.back-a {
+    background-color: black;
+    height: 150vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -10;
+    margin: 0px;
+    padding: 0px;
+}
+.th-a {
+    background-color: lime;
+    height: 50px;
+    width: 100%;
+    text-align: left;
+}
+.table-a {
+    border: 5px outset aqua;
+    max-width: 100%;
+    color: white;
+}
+.td-a {
+    border: 3px inset aqua;
+}
+.button-a {
+    height: 60px;
+    width: 100px;
+    background-color: lightgrey;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1-a {
+    background-color: lime;
+    color: black;
+}
+.button1-a:hover {
+    background-color: limegreen;
+    color: white;
+}
+.button2-a {
+    background-color: lime;
+    color: black;
+    width: 180px;
+}
+.button2-a:hover {
+    background-color: limegreen;
+    color: white;
+}
+.button3-a {
+    background-color: lime;
+    color: black;
+}
+.button3-a:hover {
+    background-color: limegreen;
+    color: white;
+}
+.topnav-a {
+    overflow: hidden;
+    background-color: lime;
+}
+
+.topnav-a a {
+float: left;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav-a a:hover {
+background-color: limegreen;
+color: black;
+}
+
+.topnav-a a.active {
+background-color: black;
+color: lime;
+}
+.accomplishments-a {
+    color: white;
+    position: absolute;
+    width: 30vw;
+    top: 60vh;
+    left: 35vw;
+    border: 3px outset lime;
+}
+.tap-a {
+    border: 3px outset lime;
+}
+/*abt*/
+.back-b {
+    background-color: black;
+    height: 160vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -10;
+    margin: 0px;
+    padding: 0px;
+}
+.h1-b {
+    text-align: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.body-b {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+.table-b {
+    height: 50px;
+    max-width: 100%;
+    background-color: black;
+}
+.button-b {
+    height: 60px;
+    width: 100px;
+    background-color: lightgrey;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+.button1-b {
+    background-color: blue;
+    color: black;
+}
+.button1-b:hover {
+    background-color: darkcyan;
+    color: white;
+}
+.button2-b {
+    background-color: blue;
+    color: black;
+    width: 180px;
+}
+.button2-b:hover {
+    background-color: darkcyan;
+    color: white;
+}
+.button3-b {
+    background-color: blue;
+    color: black;
+}
+.button3-b:hover {
+    background-color: darkcyan;
+    color: white;
+}
+.buttony-b {
+    background-color: red;
+    color: white;
+    height: 100px;
+    width: 177px;
+    border-style: ridge;
+    border-color: darkred;
+}
+.buttony-b:hover {
+    background-color: darkred;
+    border-color: red;
+    color: black;
+}
+.buttonw-b {
+    background-color: lightgrey;
+    color: black;
+    height: 100px;
+    width: 177px;
+    border-style: ridge;
+    border-color: grey;
+}
+.buttonw-b:hover {
+    background-color: grey;
+    border-color: lightgray;
+    color: white;
+}
+.buttont-b {
+    background-color: #6441a5;
+    color: white;
+    height: 100px;
+    width: 177px;
+    border-style: ridge;
+    border-color: #b9a3e3;
+}
+.buttont-b:hover {
+    background-color: #b9a3e3;
+    border-color: #6441a5;
+    color: black;
+}
+.buttonl-b {
+    background-color: #0077b5;
+    color: white;
+    height: 100px;
+    width: 177px;
+    border-style: ridge;
+    border-color: #00a0dc;
+}
+.buttonl-b:hover {
+    background-color: #00a0dc;
+    border-color: #0077b5;
+    color: black;
+}
+.topnav-b {
+overflow: hidden;
+background-color: blue;
+}
+
+.topnav-b a {
+float: left;
+color: white;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 17px;
+}
+
+.topnav-b a:hover {
+background-color: darkblue;
+color: white;
+}
+
+.topnav-b a.active {
+background-color: black;
+color: blue;
+}
+.iframe-container-b {
+    position: relative;
+
+    width: 80vw;
+    height: 45vw;
+}
+.iframe-container-b iframe{
+    position: absolute;
+    top: 0;
+    left: 10vw;
+    width: 80vw;
+    height: 45vw;
+}
+.right-b {
+    text-align: right;
+}
